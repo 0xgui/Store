@@ -96,6 +96,10 @@ on how to deploy.
 - [react-Spinners](https://www.npmjs.com/package/react-spinners)
 - [react-helmet-async](https://www.npmjs.com/package/react-helmet-async)
 
+## Run a local PostgresSQL database
+
+`docker run --name postgres -e POSTGRES_PASSWORD=databasepassword -e POSTGRES_USER=user -e POSTGRES_DB=database -p 5432:5432 --volume "$(pwd)/server/config/init.sql:/docker-entrypoint-initdb.d/init.sql" postgres `
+
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env files in both client and server directory
