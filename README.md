@@ -26,8 +26,9 @@ A small full-stack e-commerce project built with Postgres, Express, React and No
 
 ### Install Yarn and Node v16.16.0 (LTS)
 
-brew install yarn
-Use nvm to choose the Node Version
+`brew install yarn`
+
+Use [nvm](https://github.com/nvm-sh/nvm) to choose the Node v16.16.0
 
 Clone the project
 
