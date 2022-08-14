@@ -104,7 +104,7 @@ on how to deploy.
 
 ## Run a local PostgresSQL database
 
-`docker run --name postgres -e POSTGRES_PASSWORD=databasepassword -e POSTGRES_USER=user -e POSTGRES_DB=database -p 5432:5432 --volume "$(pwd)/server/config/init.sql:/docker-entrypoint-initdb.d/init.sql" postgres `
+`docker run --rm --name postgres -e POSTGRES_PASSWORD=databasepassword -e POSTGRES_USER=user -e POSTGRES_DB=database -p 5432:5432 --volume "$(pwd)/server/config/init.sql:/docker-entrypoint-initdb.d/init.sql" postgres:14 `
 
 ## Environment Variables
 
