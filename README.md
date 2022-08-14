@@ -24,6 +24,11 @@ A small full-stack e-commerce project built with Postgres, Express, React and No
 
 ## Run Locally
 
+### Install Yarn and Node v16.16.0 (LTS)
+
+brew install yarn
+Use nvm to choose the Node Version
+
 Clone the project
 
 ```bash
@@ -39,37 +44,37 @@ Go to the project directory
 Install dependencies
 
 ```bash
-  npm install
+  yarn install
 ```
 
 Go to server directory and install dependencies
 
 ```bash
-  npm install
+  yarn install
 ```
 
 Go to client directory and install dependencies
 
 ```bash
-  npm install
+  yarn install
 ```
 
 Go to server directory and start the server
 
 ```bash
-  npm run dev
+  yarn run dev
 ```
 
 Go to client directory and start the client
 
 ```bash
-  npm run client
+  yarn run start
 ```
 
 Start both client and server concurrently from the root directory
 
 ```bash
-  npm run dev
+  yarn run dev
 ```
 
 ## Deployment
