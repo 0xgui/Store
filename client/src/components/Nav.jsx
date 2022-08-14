@@ -17,7 +17,7 @@ const Nav = () => {
           to="/"
           className="text-gray-700 text-2xl font-bold dark:text-gray-400"
         >
-          <h1>PERN Store</h1>
+          <h1>Store</h1>
         </Link>
         <ul className="flex space-x-4">
           {!isLoggedIn && (

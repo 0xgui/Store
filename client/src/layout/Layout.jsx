@@ -8,7 +8,7 @@ const Layout = ({ children, title, loading }) => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{title || "Home"} | PERN Store </title>
+        <title>{title || "Home"} | Tia Ana's Balls of Berlin </title>
         <meta
           name="description"
           content="Ecommerce store built with React, Node, Express and Postgres"
@@ -61,9 +61,9 @@ const Layout = ({ children, title, loading }) => {
 
         <footer className="mt-auto flex justify-center py-2">
           <p className="text-sm text-gray-600 sm:ml-4 sm:pl-4 sm:py-2 sm:mt-0 mt-4">
-            © 2021 PERN Store —
+            © 2022 Store —
             <a
-              href="https://github.com/dhatguy"
+              href="https://github.com/0xgui"
               className="text-gray-500 ml-1"
               target="_blank"
               rel="noopener noreferrer"
